@@ -1,0 +1,9 @@
+const JWT_SECRET = "123456";
+const JWT_EXPIRATION = "1h";
+const REFRESH_TOKEN_EXPIRATION = "7d";
+
+module.exports = {
+  JWT_SECRET,
+  JWT_EXPIRATION,
+  REFRESH_TOKEN_EXPIRATION,
+};
